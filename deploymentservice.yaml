@@ -30,6 +30,6 @@ spec:
   selector:
     app: spring-boot-k8s
   ports:
-    - nodePort: 30163
-      port: 8080 
+    - name: http
+      port: 80 
       targetPort: 8080
