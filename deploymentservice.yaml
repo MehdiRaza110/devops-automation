@@ -33,7 +33,3 @@ spec:
     - nodePort: 30163
       port: 8080
       targetPort: 8080
-      internal: 8080
-      external: 8000
-      internal: 80
-      external: 8000
